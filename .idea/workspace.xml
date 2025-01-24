@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83c9ed7c-ac73-4cff-bbaa-8f59df21f1ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/test/Testselenium.java" afterDir="false" />
+    <list default="true" id="83c9ed7c-ac73-4cff-bbaa-8f59df21f1ad" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/CommonTOAllPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/CommonToAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/DashboardPage_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectModel/LoginPage_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/UtilExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/propertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/vwologin/TestVWOLogin_POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/RetryLIsteners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "VINAY5277"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/VINAY5277/ATB8xSeleniumAdvanceFramework.git",
+    "accountId": "27cbd4f9-33d0-4595-a7bc-0795a40665fb"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -43,13 +58,31 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TestVWOLogin_POM.executor": "Run",
     "TestNG.Testselenium.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TestVWOLogin_POM">
+    <configuration name="TestVWOLogin_POM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xSeleniumAdvanceFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.vwologin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.vwologin" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.vwologin.TestVWOLogin_POM" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testselenium" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xSeleniumAdvanceFramework" />
       <extension name="coverage">
@@ -69,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestVWOLogin_POM" />
         <item itemvalue="TestNG.Testselenium" />
       </list>
     </recent_temporary>
@@ -82,6 +116,27 @@
       <option name="presentableId" value="Default" />
       <updated>1737603755239</updated>
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <option name="closed" value="true" />
+      <created>1737683313436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737683313436</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <option name="closed" value="true" />
+      <created>1737683413701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737683413701</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
